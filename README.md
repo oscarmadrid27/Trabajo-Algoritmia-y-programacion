@@ -102,6 +102,11 @@ PrestApp será una herramienta de gestión que permitirá administrar préstamos
 
 # 7. Plan de proyecto
 
+## Cronograma de actividades (Diagrama de gantt)
+
+![Diagrama de gantt](https://github.com/user-attachments/assets/8645d716-1d3b-4328-a55f-ee3dc61d117b)
+
+
 ## Presupuesto
 
 - Horas totales del proyecto: 50 horas
