@@ -1,26 +1,25 @@
 # Trabajo-Algoritmia-y-programacion
 
 # 1. Integrantes
-- Óscar Andrés Madrid Vergara
-- Sharon Vanessa Trujillo
-- Diana Isabela Gómez Vera
+| Nombre | Rol en el proyecto |
+|---|---|
+| Óscar Andrés Madrid Vergara | Líder del equipo / Desarrollo principal |
+| Sharon Vanessa Trujillo | Desarrollo de módulos / Documentación |
+| Diana Isabela Gómez Vera | Pruebas y validación / Documentación |
 
-Estudiantes del curso de Algoritmia y programación, con interés en la programación para aplicarla a la gestión de procesos.
+Somos tres estudiantes de **Ingeniería Industrial** de la **Universidad de Antioquia, Seccional Medellín y Carmen de Viboral**. Este proyecto hace parte del curso de Algoritmia y Programación (2026-1) y representa nuestra primera experiencia construyendo un sistema de software orientado a objetos en Python.
 
 ---
 # 2. Vínculos académicos
 
 **Óscar Andrés Madrid Vergara**
 
-Programa: Ingeniería industrial
-
-Fortalezas:
-- Autocrítico
-- Autónomo
-- Empatico
-- Líder
-- Disciplinado
-- Responsable
+- **Programa:** Ingeniería Industrial
+- **Universidad:** Universidad de Antioquia — Seccional Carmen de Viboral
+- **Semestre:** 1
+- **Edad:** 25 años
+- **Descripción:** Estudiante con interés en la automatización de procesos industriales y el análisis de datos. En este proyecto asume el rol de líder del equipo, coordina las entregas, gestiona el repositorio y lidera el desarrollo del código principal.
+- **Fortalezas:** Autocrítico · Autónomo · Empático · Líder · Disciplinado · Responsable
 
 **Sharon Vanessa Trujillo**
 
@@ -61,7 +60,21 @@ El software permite administrar información de usuarios (amigos), registrar pr�
 ---
 
 # 4. Licencia 
-Este trabajo está licenciado bajo **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**, esta nos permite compartir y adaptar el material con fines no comerciales y se da crédito al autor.
+Este proyecto está licenciado bajo **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**, generada con los datos del equipo a través del enlace oficial proporcionado en las indicaciones del proyecto.
+
+**Datos de la licencia:**
+- **Autores:** Óscar Andrés Madrid Vergara, Sharon Vanessa Trujillo, Diana Isabela Gómez Vera
+- **Título del proyecto:** PrestApp — Gestor de Préstamos Personales
+- **Fecha de creación:** Mayo 2026
+- **Tipo:** Attribution-NonCommercial 4.0 International
+
+**¿Qué permite esta licencia?**
+- ✅ Compartir: copiar y redistribuir el material en cualquier medio o formato.
+- ✅ Adaptar: mezclar, transformar y construir a partir del material.
+- ❌ Uso comercial: no se permite usar el material con fines comerciales.
+- ℹ️ Atribución: siempre se debe dar crédito a los autores originales.
+
+🔗 Ver licencia completa: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
