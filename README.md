@@ -4,7 +4,7 @@
 | Nombre | Rol en el proyecto |
 |---|---|
 | Óscar Andrés Madrid Vergara | Líder del equipo / Desarrollo principal |
-| Sharon Vanessa Trujillo | Desarrollo de módulos / Documentación |
+| Sharon Vanesa Trujillo Muñoz | Desarrollo de módulos / Documentación |
 | Diana Isabela Gómez Vera | Pruebas y validación / Documentación |
 
 Somos tres estudiantes de **Ingeniería Industrial** de la **Universidad de Antioquia, Seccional Medellín y Carmen de Viboral**. Este proyecto hace parte del curso de Algoritmia y Programación (2026-1) y representa nuestra primera experiencia construyendo un sistema de software orientado a objetos en Python.
@@ -21,11 +21,14 @@ Somos tres estudiantes de **Ingeniería Industrial** de la **Universidad de Anti
 - **Descripción:** Estudiante con interés en la automatización de procesos industriales y el análisis de datos. En este proyecto asume el rol de líder del equipo, coordina las entregas, gestiona el repositorio y lidera el desarrollo del código principal.
 - **Fortalezas:** Autocrítico · Autónomo · Empático · Líder · Disciplinado · Responsable
 
-**Sharon Vanessa Trujillo**
+**Sharon Vanesa Trujillo Muñoz**
 
-Programa: Ingeniería industrial
-
-Fortalezas: 
+-**Programa:** Ingeniería industrial
+- **Universidad:** Universidad de Antioquia — Seccional Carmen de Viboral
+- **Semestre:** 3
+- **Edad:** 19 años
+- **Descripción:** Soy una chica apasionada por aprender cosas nuevas y encontrar soluciones prácticas a los problemas. Me interesa mejorar procesos y usar la tecnología como apoyo para hacer las cosas de manera más eficiente. Me considero una persona responsable, creativa y analítica, además de alguien comprometida con sus metas. También disfruto temas relacionados con la tecnología, la naturaleza y la creatividad, lo que me ayuda a tener una visión más amplia tanto en lo académico como en lo personal.
+**Fortalezas:**
 - Resilencia 
 - Autoconfianza 
 - Empatía 
@@ -80,17 +83,25 @@ Este proyecto está licenciado bajo **Creative Commons Attribution-NonCommercial
 
 # 5. Visión del proyecto
 
-PrestApp será una herramienta de gestión que permitirá administrar préstamos de forma organizada y automática.
+PrestApp es una herramienta de gestión de préstamos personales desarrollada en Python que funciona a través de la consola. Su propósito es resolver un problema cotidiano pero real: la dificultad de llevar un control claro sobre qué objetos se han prestado, a quién y por cuánto tiempo.
 
-## Objetivos 
-- Registrar usuarios
-- Controlar préstamos y devoluciones
-- Automatizar ventas por mora
+El sistema está pensado para usuarios que prestan objetos de forma frecuente entre amigos o conocidos, y que necesitan un mecanismo confiable para no perder de vista sus pertenencias, establecer límites de tiempo y actuar cuando un préstamo se extiende más de lo acordado.
+
+### Objetivos del software
+
+- Registrar amigos (usuarios) con su información básica de contacto y condiciones de préstamo acordadas.
+- Gestionar el inventario de objetos disponibles para préstamo, clasificados por categoría.
+- Registrar préstamos activos con control automático de fechas y fechas de vencimiento.
+- Registrar devoluciones y emitir certificados de devolución automáticamente en archivo de texto plano.
+- Generar notificaciones de recordatorio cuando un préstamo supera los 20 días.
+- Generar facturas de venta automáticas cuando un préstamo supere los 30 días.
 
 ## Beneficios 
-- Evita pérdidas de objetos
-- Ahorra tiempo en control manual
-- Genera reportes automáticos 
+- Elimina la posibilidad de olvidar qué objetos se prestaron y a quién.
+- Reduce conflictos entre amigos derivados de la falta de seguimiento a los préstamos.
+- Automatiza la generación de documentos como certificados de devolución y facturas de venta.
+- Centraliza la información de usuarios e ítems en archivos planos consultables en cualquier momento.
+- Facilita la toma de decisiones sobre a quién prestar y bajo qué condiciones, con base en el historial registrado.
 
 ---
 
