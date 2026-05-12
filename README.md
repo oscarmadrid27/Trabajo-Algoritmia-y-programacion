@@ -36,7 +36,13 @@ Somos tres estudiantes de **Ingeniería Industrial** de la **Universidad de Anti
 - Liderazgo 
 - Determinación
 
-**Diana Isabela Gómez Vera**
+**Diana Isabela Gómez Vera** 
+
+- **Programa:** Ingeniería Industrial
+- **Universidad:** Universidad de Antioquuia - Seccional Medellín
+- **Semestre:** 3
+- **Edad:** 19 años
+- **Descripción:** Soy una estudiante de Ingeniería Industrial apasionada por aprender, crecer y enfrentar nuevos desafíos. Me interesa encontrar soluciones prácticas a los problemas y mejorar procesos de manera eficiente e innovadora. Me considero una persona responsable, inteligente, creativa y analítica, comprometida con cada meta que me propongo. 
 
 Programa: Ingeniería industrial
 
@@ -72,10 +78,10 @@ Este proyecto está licenciado bajo **Creative Commons Attribution-NonCommercial
 - **Tipo:** Attribution-NonCommercial 4.0 International
 
 **¿Qué permite esta licencia?**
-- ✅ Compartir: copiar y redistribuir el material en cualquier medio o formato.
-- ✅ Adaptar: mezclar, transformar y construir a partir del material.
-- ❌ Uso comercial: no se permite usar el material con fines comerciales.
-- ℹ️ Atribución: siempre se debe dar crédito a los autores originales.
+- Compartir: copiar y redistribuir el material en cualquier medio o formato.
+- Adaptar: mezclar, transformar y construir a partir del material.
+- Uso comercial: no se permite usar el material con fines comerciales.
+- Atribución: siempre se debe dar crédito a los autores originales.
 
 🔗 Ver licencia completa: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -96,7 +102,7 @@ El sistema está pensado para usuarios que prestan objetos de forma frecuente en
 - Generar notificaciones de recordatorio cuando un préstamo supera los 20 días.
 - Generar facturas de venta automáticas cuando un préstamo supere los 30 días.
 
-## Beneficios 
+### Beneficios esperados
 - Elimina la posibilidad de olvidar qué objetos se prestaron y a quién.
 - Reduce conflictos entre amigos derivados de la falta de seguimiento a los préstamos.
 - Automatiza la generación de documentos como certificados de devolución y facturas de venta.
