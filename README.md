@@ -139,8 +139,18 @@ El sistema está pensado para usuarios que prestan objetos de forma frecuente en
 
 ## Presupuesto
 
-- Horas totales del proyecto: 50 horas
-- Integrantes: 3 estudiantes
-- Equivalencia: 1 SMLV en práctica profesional 
+**Base del cálculo:**
+- Salario Mínimo Legal Vigente (SMLV) Colombia 2026: **$1.750.905 COP**
+- Horas laborales: **50 horas**
+- Valor hora de práctica profesional: $1.750.905 ÷ 50 = **$35.018 COP/hora**
+
+**Detalle por integrante:**
+
+| Integrante | Horas invertidas | Valor hora | Costo individual |
+|---|---|---|---|
+| Óscar Andrés Madrid Vergara | 17 horas | $35.018 COP | $595.306 COP |
+| Sharon Vanessa Trujillo | 17 horas | $35.018 COP | $595.306 COP |
+| Diana Isabela Gómez Vera | 16 horas | $35.018 COP | $560.288 COP |
+| **TOTAL EQUIPO** | **50 horas** | — | **$1.750.905 COP** |
 
   
