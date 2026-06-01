@@ -28,13 +28,7 @@ Somos tres estudiantes de **Ingeniería Industrial** de la **Universidad de Anti
 - **Semestre:** 3
 - **Edad:** 19 años
 - **Descripción:** Soy una chica apasionada por aprender cosas nuevas y encontrar soluciones prácticas a los problemas. Me interesa mejorar procesos y usar la tecnología como apoyo para hacer las cosas de manera más eficiente. Me considero una persona responsable, creativa y analítica, además de alguien comprometida con sus metas. También disfruto temas relacionados con la tecnología, la naturaleza y la creatividad, lo que me ayuda a tener una visión más amplia tanto en lo académico como en lo personal.
-**Fortalezas:**
-- Resilencia 
-- Autoconfianza 
-- Empatía 
-- Versatilidad 
-- Liderazgo 
-- Determinación
+- **Fortalezas:** Resilencia · Autoconfianza · Empatía · Versatilidad · Liderazgo · Determinación
 
 **Diana Isabela Gómez Vera** 
 
