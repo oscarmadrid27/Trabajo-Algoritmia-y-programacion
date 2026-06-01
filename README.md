@@ -23,7 +23,7 @@ Somos tres estudiantes de **Ingeniería Industrial** de la **Universidad de Anti
 
 **Sharon Vanesa Trujillo Muñoz**
 
--**Programa:** Ingeniería industrial
+- **Programa:** Ingeniería Industrial
 - **Universidad:** Universidad de Antioquia — Seccional Carmen de Viboral
 - **Semestre:** 3
 - **Edad:** 19 años
