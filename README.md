@@ -108,21 +108,29 @@ El sistema está pensado para usuarios que prestan objetos de forma frecuente en
 # 6. Especificación de requisitos
 
 ## Requisitos funcionales 
-- Registrar usuarios con validaciones
-- Registrar por categoría
-- Crear préstamos
-- Registrar devoluciones
-- Generar certificados
-- Generar facturas por mora
-- Consultar estado de préstamos
-- Acceso de administrador con usuario y contraseña
+Los requisitos funcionales describen las acciones concretas que el sistema debe ser capaz de realizar para satisfacer las necesidades del usuario:
+
+| ID | Nombre | Descripción detallada | Criterio de verificación |
+|---|---|---|---|
+| RF-01 | Registrar usuario | El sistema solicita y valida: **Nombre** (mínimo 3 caracteres, no permite números); **Apellido** (mínimo 3 caracteres, no permite números); **Documento** (solo números, entre 3 y 15 dígitos); **Correo electrónico** (debe contener `@` y terminar en `.com`); **Tiempo de préstamo** (solo acepta valores 5, 10, 15 o 30 días, cualquier otro valor es rechazado). Si algún campo no cumple la validación, el sistema muestra un mensaje de error específico y solicita ingresar el dato nuevamente. | El sistema rechaza entradas inválidas en todos los campos y almacena el registro correctamente en archivo plano cuando todos los datos son válidos. |
+| RF-02 | Registrar ítem | El sistema permite registrar un objeto con: **Nombre** (mínimo 3 caracteres, permite números); **Categoría** (menú de selección con las opciones: Videojuegos, Libros, Música y video, Herramientas, Dinero, Misceláneo y varios); **Precio de compra** (valor numérico positivo); **ID único** generado automáticamente combinando letras de la categoría y un número secuencial; **Estado del ítem** evaluado mediante lógica difusa con escala de calidad (Excelente, Bueno, Regular, Malo). | El sistema genera un ID único por categoría, almacena el ítem en el inventario y rechaza registros con campos inválidos. |
+| RF-03 | Registrar préstamo | El sistema lista los ítems disponibles en inventario. El usuario selecciona el ítem por ID y luego ingresa el documento del usuario al que se prestará. Si el usuario **no está registrado**, el sistema muestra el mensaje: *"El usuario no existe. Debe registrarlo antes de continuar."* y retorna al menú principal. Si el usuario **existe**, se registra el préstamo con fecha de inicio, fecha límite calculada según el tiempo pactado con el usuario, e ID del préstamo. | El sistema impide crear préstamos a usuarios no registrados, registra la fecha automáticamente y almacena el préstamo en archivo plano. |
+| RF-04 | Registrar devolución y certificado | El sistema consulta los préstamos activos del usuario ingresado. Si **no tiene préstamos activos**, muestra: *"Este usuario no tiene préstamos activos registrados."* Si **tiene préstamos activos**, el usuario selecciona el ítem a devolver. Al confirmar la devolución, el sistema genera automáticamente un certificado de devolución en archivo `.txt` con nombre: `{NombrePrestador}_{FechaDevolucion}_{IDPrestamo}.txt`, que incluye toda la información del préstamo (usuario, ítem, fecha de préstamo, fecha de devolución, estado del ítem). | El sistema genera el archivo de certificado con el nombre correcto y lo almacena en la carpeta de documentos. El préstamo queda marcado como devuelto. |
+| RF-05 | Generar factura de venta | El sistema identifica automáticamente todos los préstamos con más de 30 días activos. Para cada uno, genera una factura de venta en archivo `.txt` con nombre: `{NombrePrestador}_{IDPrestamo}_factura.txt`. La factura incluye: descripción del ítem, precio de adquisición (subtotal), impuesto del 23% por incumplimiento, y total a pagar. La motivación de la venta debe estar redactada en el documento. | El sistema calcula correctamente subtotal, impuesto (23%) y total. Genera el archivo con el nombre y contenido requeridos. |
+| RF-06 | Consultar préstamos activos | El sistema muestra una lista de todos los ítems actualmente prestados, ordenada de mayor a menor por cantidad de días transcurridos desde el préstamo. Incluye estadísticas generales: total de préstamos activos, ítem prestado hace más tiempo, e ítem prestado más recientemente. La información se lee desde archivos planos. | La lista se muestra ordenada correctamente y las estadísticas corresponden a los datos almacenados. |
+| RF-07 | Módulo administrador | El acceso está protegido por usuario y contraseña almacenados en un archivo de credenciales. Si los datos son incorrectos, el sistema muestra un error y no permite el ingreso. Si son correctos, muestra un submenú con los siguientes reportes: total de préstamos registrados, total de ítems devueltos, total de ventas realizadas, total recaudado por ventas, lista completa de usuarios registrados, y usuario con mayor y menor cantidad de préstamos históricos. | El sistema deniega acceso con credenciales incorrectas. Todos los reportes muestran datos coherentes con los archivos planos almacenados. |
   
 ## Requisitos no funcionales
-- Tener interfaz amigable en consola
-- Almacenar datos en archivos planos
-- Exportar reportes a CSV
-- Compatibilidad con Python
-- Seguridad con autenticación
+Los requisitos no funcionales definen las condiciones de calidad bajo las cuales el sistema debe operar:
+
+| ID | Nombre | Descripción detallada | Criterio de verificación |
+|---|---|---|---|
+| RNF-01 | Usabilidad | El menú principal debe tener exactamente 7 opciones numeradas. Cada opción debe tener un mensaje de confirmación o error claro. El sistema no debe cerrarse inesperadamente ante entradas inválidas del usuario. | Un usuario sin conocimientos técnicos puede navegar el menú sin asistencia en menos de 2 minutos. |
+| RNF-02 | Persistencia de datos | Toda la información (usuarios, ítems, préstamos, devoluciones, ventas) debe almacenarse en archivos planos `.txt` o `.csv`. Los datos deben mantenerse disponibles entre sesiones del programa. | Al cerrar y volver a abrir el programa, todos los registros anteriores están disponibles y sin alteraciones. |
+| RNF-03 | Exportación a CSV | El sistema debe permitir exportar los reportes del módulo administrador en formato `.csv` usando las librerías estándar de Python. | El archivo `.csv` generado puede abrirse correctamente en Excel o LibreOffice Calc sin errores de formato. |
+| RNF-04 | Compatibilidad | El programa debe ejecutarse en Windows, macOS y Linux con Python 3.8 o superior instalado, sin necesidad de librerías externas adicionales (solo librería estándar de Python). | El programa se ejecuta correctamente desde consola con el comando `python main.py` en los tres sistemas operativos. |
+| RNF-05 | Seguridad de acceso | Las credenciales del administrador deben almacenarse en un archivo separado. El módulo de administración solo es accesible con usuario y contraseña correctos. El sistema tiene máximo 3 intentos fallidos antes de bloquear el acceso temporalmente. | El acceso al módulo administrador es imposible sin credenciales válidas. |
+| RNF-06 | Mantenibilidad del código | El código debe estar organizado usando clases y objetos. La clase de préstamos debe llamarse `clsPrestamo` y la clase de usuarios `clsUsuarios`. Todo el código debe incluir documentación interna con el código `pf_Algoritmos` en los encabezados de las clases y funciones. | El código puede ser modificado por cualquier integrante del equipo sin romper otras funcionalidades. Las clases tienen los nombres exactos requeridos. |
 
 # 7. Plan de proyecto
 
