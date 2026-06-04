@@ -35,7 +35,7 @@ Somos tres estudiantes de **Ingeniería Industrial** de la **Universidad de Anti
 - **Programa:** Ingeniería Industrial
 - **Universidad:** Universidad de Antioquuia - Seccional Medellín
 - **Semestre:** 3
-- **Edad:** 19 años
+- **Edad:** 18 años
 - **Descripción:** Soy una estudiante de Ingeniería Industrial apasionada por aprender, crecer y enfrentar nuevos desafíos. Me interesa encontrar soluciones prácticas a los problemas y mejorar procesos de manera eficiente e innovadora. Me considero una persona responsable, inteligente, creativa y analítica, comprometida con cada meta que me propongo. 
 
 Programa: Ingeniería industrial
