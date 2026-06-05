@@ -66,7 +66,7 @@ El software permite administrar información de usuarios (amigos), registrar pr�
 Este proyecto está licenciado bajo **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**, generada con los datos del equipo a través del enlace oficial proporcionado en las indicaciones del proyecto.
 
 **Datos de la licencia:**
-- **Autores:** Óscar Andrés Madrid Vergara, Sharon Vanessa Trujillo, Diana Isabela Gómez Vera
+- **Autores:** Óscar Andrés Madrid Vergara, Sharon Vanesa Trujillo, Diana Isabela Gómez Vera
 - **Título del proyecto:** PrestApp — Gestor de Préstamos Personales
 - **Fecha de creación:** Mayo 2026
 - **Tipo:** Attribution-NonCommercial 4.0 International
