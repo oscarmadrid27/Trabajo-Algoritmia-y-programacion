@@ -136,7 +136,8 @@ Los requisitos no funcionales definen las condiciones de calidad bajo las cuales
 
 ## Cronograma de actividades (Diagrama de gantt)
 
-![Diagrama de gantt](https://github.com/user-attachments/assets/8645d716-1d3b-4328-a55f-ee3dc61d117b)
+![Diagrama de gantt](<img width="1033" height="1094" alt="Diagrama de Gantt" src="https://github.com/user-attachments/assets/c3f456e3-17df-432c-b73d-736d9ad34db7" />)
+
 
 
 ## Presupuesto
